@@ -1,0 +1,19 @@
+{
+    "name": "frostealth/php-shortid-helper",
+    "description": "PHP ShortId Helper",
+    "version" : "1.0.0",
+    "authors": [
+        {
+            "name": "Kudinov Ivan",
+            "email": "frostealth@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "frostealth\\Helpers\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
