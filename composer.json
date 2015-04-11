@@ -1,19 +1,20 @@
 {
-    "name": "frostealth/php-shortid-helper",
-    "description": "PHP ShortId Helper",
-    "version" : "1.0.0",
-    "authors": [
-        {
-            "name": "Kudinov Ivan",
-            "email": "frostealth@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "frostealth\\Helpers\\": "src/"
-        }
-    },
-    "require": {
-        "php": ">=5.4.0"
+  "name": "frostealth/php-shortid-helper",
+  "description": "PHP ShortId Helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Kudinov",
+      "email": "frostealth@gmail.com",
+      "homepage": "http://frostealth.ru"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "frostealth\\Helpers\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0"
+  }
 }
